@@ -95,14 +95,14 @@ function fullName(x, y) {
     return firstName + " " + lastName;
 
 }
-var giveName = fullName('Chinmayi', 'Progga');
+var giveName = fullName('Chinmayi','Progga');
 console.log(giveName);
 
 // square
 
 function square(number) {
     var displayNumber = Math.pow(number, 2);
-    var displayNumber = number * number;
+    // var displayNumber = number * number;
     return displayNumber;
 }
 var giveNumber = square(5);
